@@ -71,3 +71,7 @@ tests/                 Automated checks
 - Local documents are indexed by metadata only. The agent cannot answer from their full text.
 - Optional CSV columns are used when present and ignored when absent.
 - No scraping, Goodreads integration, OCR, voice, background workers, plugins, event bus, or multi-agent system.
+
+## Author: Shahid Arif Shaikh
+## Project: Smart Library Agent
+## License: MIT
