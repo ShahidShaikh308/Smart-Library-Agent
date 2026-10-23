@@ -1,0 +1,18 @@
+# Secrets
+.env
+
+# Local reader database
+*.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.presentation-build/
+.ruff_cache/
+.vscode/
+*.pyc
+*.pyo
+*.db-journal

@@ -1,0 +1,25 @@
+# Smart Library Agent - Python dependencies
+# Python 3.10 or newer is required.
+#
+# Install with:  pip install -r requirements.txt
+
+# Web UI
+streamlit>=1.30
+
+# Agent framework
+langgraph>=0.2
+
+# LangChain building blocks (messages, @tool decorator)
+langchain-core>=0.3
+
+# Provider integrations (select with LLM_PROVIDER in .env)
+langchain-openai>=0.3
+langchain-google-genai>=4.0
+langchain-groq>=0.3
+langchain-ollama>=0.3
+
+# Loads provider configuration and API keys from .env
+python-dotenv>=1.0
+
+# Test runner (used by tests/test_tools.py)
+pytest>=7.0
